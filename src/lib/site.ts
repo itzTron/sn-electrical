@@ -148,7 +148,7 @@ export const services: Service[] = [
       bn: "আমরা পরিষ্কার রাউটিং, লোড ব্যালান্সিং, সার্জ প্রোটেকশন পরিকল্পনা এবং ভবিষ্যৎ সম্প্রসারণ সুবিধাসহ প্রিমিয়াম আবাসিক ওয়্যারিং সিস্টেম ডিজাইন ও ইনস্টল করি।",
     },
     banner:
-      "https://images.unsplash.com/photo-1581093458791-9d15482442f5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80",
     category: "residential",
     benefits: [
       {
@@ -339,7 +339,7 @@ export const services: Service[] = [
       bn: "আমরা এমন DB, MCB, RCCB এবং লেবেলিং সিস্টেম ইনস্টল করি যা আইসোলেশন, ফল্ট রেসপন্স ও সার্ভিসযোগ্যতা বাড়ায়।",
     },
     banner:
-      "https://images.unsplash.com/photo-1621905252472-e8d75af51c1f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=1200&q=80",
     category: "residential",
     benefits: [
       { en: "Neat panel architecture", bn: "পরিষ্কার প্যানেল আর্কিটেকচার" },
@@ -785,7 +785,7 @@ export const blogPosts: BlogPost[] = [
     author: "SN Electrical Editorial",
     date: "2026-04-30",
     image:
-      "https://images.unsplash.com/photo-1621905252472-e8d75af51c1f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=1200&q=80",
     body: [
       {
         en: "A distribution board should support safe isolation, predictable maintenance, and growth in appliance demand. If it does not, your risk grows quietly over time.",
