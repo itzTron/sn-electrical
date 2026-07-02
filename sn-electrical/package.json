@@ -1,0 +1,11 @@
+{
+  "name": "sn-electrical-compat",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix .. run dev",
+    "build": "npm --prefix .. run build",
+    "start": "npm --prefix .. run start",
+    "lint": "npm --prefix .. run lint"
+  }
+}
+
