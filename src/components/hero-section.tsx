@@ -72,7 +72,7 @@ export function HeroSection({ locale }: { locale: Locale }) {
               </h1>
             </Reveal>
             <Reveal delay={0.14}>
-              <p className="max-w-2xl text-lg leading-8 text-[var(--muted-foreground)] sm:text-xl">
+              <p className="max-w-2xl rounded-[28px] bg-[rgba(13,17,23,0.5)] px-5 py-4 text-lg leading-8 text-white shadow-[0_16px_40px_rgba(0,0,0,0.18)] backdrop-blur-md sm:text-xl">
                 {locale === "en"
                   ? "Professional residential, commercial, and industrial electrical solutions with certified electricians, premium finish standards, and rapid response support."
                   : "সার্টিফায়েড ইলেকট্রিশিয়ান, প্রিমিয়াম ফিনিশ স্ট্যান্ডার্ড এবং দ্রুত রেসপন্স সাপোর্টসহ আবাসিক, কমার্শিয়াল ও ইন্ডাস্ট্রিয়াল ইলেকট্রিক্যাল সলিউশন।"}
@@ -127,15 +127,15 @@ export function HeroSection({ locale }: { locale: Locale }) {
                 <div className="absolute inset-x-6 bottom-6">
                   <div className="glass-panel flex items-center justify-between gap-4 px-5 py-4">
                     <div>
-                      <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-accent)]">
+                      <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-primary)] dark:text-[var(--color-accent)]">
                         {locale === "en" ? "24/7 Emergency Service" : "২৪/৭ ইমার্জেন্সি সার্ভিস"}
                       </div>
-                      <div className="mt-2 text-lg font-semibold text-white">
+                      <div className="mt-2 text-lg font-semibold text-[var(--foreground)] dark:text-white">
                         {locale === "en" ? "Safety-first callouts within Dhaka city." : "ঢাকা শহরের ভেতরে সেফটি-ফার্স্ট কলআউট।"}
                       </div>
                     </div>
-                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/16">
-                      <PhoneCall className="h-5 w-5 text-white" />
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[rgba(0,102,255,0.12)] dark:bg-white/16">
+                      <PhoneCall className="h-5 w-5 text-[var(--color-primary)] dark:text-white" />
                     </div>
                   </div>
                 </div>
@@ -144,12 +144,12 @@ export function HeroSection({ locale }: { locale: Locale }) {
             <motion.div
               animate={{ y: [0, 14, 0] }}
               transition={{ duration: 3.8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-              className="absolute -bottom-6 -left-4 hidden max-w-xs rounded-[26px] border border-white/20 bg-white/78 p-5 shadow-[0_24px_50px_rgba(8,15,33,0.12)] backdrop-blur-xl md:block dark:bg-[rgba(13,17,23,0.72)]"
+              className="absolute -bottom-6 -left-4 hidden max-w-xs rounded-[26px] border border-white/20 bg-white/85 p-5 shadow-[0_24px_50px_rgba(8,15,33,0.12)] backdrop-blur-xl md:block dark:bg-[rgba(13,17,23,0.72)]"
             >
               <div className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-primary)]">
                 {locale === "en" ? "Trust Indicators" : "ট্রাস্ট ইন্ডিকেটর"}
               </div>
-              <div className="mt-3 text-sm leading-7 text-[var(--muted-foreground)]">
+              <div className="mt-3 text-sm leading-7 text-[var(--foreground)]/72 dark:text-[var(--muted-foreground)]">
                 {locale === "en"
                   ? "Licensed electricians, fast response, safety-led execution, and premium project documentation."
                   : "লাইসেন্সপ্রাপ্ত ইলেকট্রিশিয়ান, দ্রুত রেসপন্স, সেফটি-নির্ভর এক্সিকিউশন এবং প্রিমিয়াম প্রজেক্ট ডকুমেন্টেশন।"}
@@ -161,4 +161,3 @@ export function HeroSection({ locale }: { locale: Locale }) {
     </section>
   );
 }
-
