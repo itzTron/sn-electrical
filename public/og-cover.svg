@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0D1117"/>
+  <circle cx="261" cy="145" r="248" fill="#0066FF" fill-opacity="0.22"/>
+  <circle cx="983" cy="495" r="223" fill="#FFD400" fill-opacity="0.16"/>
+  <rect x="52" y="52" width="1096" height="526" rx="36" fill="white" fill-opacity="0.07" stroke="white" stroke-opacity="0.14"/>
+  <rect x="106" y="136" width="86" height="86" rx="24" fill="url(#paint0_linear_1_2)"/>
+  <path d="M155.901 164.673H132.323L146.42 140L150.111 140.09L142.739 158.731H160.75L145.404 208H141.713L155.901 164.673Z" fill="white"/>
+  <text x="228" y="176" fill="white" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">SN ELECTRICAL SERVICES</text>
+  <text x="106" y="308" fill="white" font-size="70" font-family="Arial, sans-serif" font-weight="700">Powering Your Home</text>
+  <text x="106" y="385" fill="white" font-size="70" font-family="Arial, sans-serif" font-weight="700">with Safety &amp; Trust</text>
+  <text x="106" y="455" fill="#B8C1CC" font-size="28" font-family="Arial, sans-serif">Premium electrical solutions for residential, commercial, and industrial properties.</text>
+  <rect x="106" y="500" width="204" height="54" rx="27" fill="#0066FF"/>
+  <text x="145" y="534" fill="white" font-size="22" font-family="Arial, sans-serif" font-weight="700">Get Free Quote</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="106" y1="136" x2="192" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#56A0FF"/>
+    </linearGradient>
+  </defs>
+</svg>
+
