@@ -86,7 +86,7 @@ export default async function AboutPage({
           <Reveal>
             <div className="relative overflow-hidden rounded-[34px]">
               <Image
-                src="https://images.unsplash.com/photo-1574359411659-15573f4d4f3d?auto=format&fit=crop&w=1200&q=80"
+                src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80"
                 alt="Electrical team planning a project"
                 width={1200}
                 height={900}
