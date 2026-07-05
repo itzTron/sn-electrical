@@ -112,8 +112,8 @@ export default async function AboutPage({
                 title: locale === "en" ? "Vision" : "ভিশন",
                 text:
                   locale === "en"
-                    ? "Become the most trusted premium electrical partner for modern properties across Bangladesh."
-                    : "বাংলাদেশজুড়ে আধুনিক সম্পত্তির জন্য সবচেয়ে বিশ্বস্ত প্রিমিয়াম ইলেকট্রিক্যাল পার্টনার হওয়া।",
+                    ? "Become the most trusted premium electrical partner for modern properties across West Bengal."
+                    : "পশ্চিমবঙ্গ জুড়ে আধুনিক সম্পত্তির জন্য সবচেয়ে বিশ্বস্ত প্রিমিয়াম ইলেকট্রিক্যাল পার্টনার হওয়া।",
               },
               {
                 title: locale === "en" ? "Safety Commitment" : "সেফটি কমিটমেন্ট",
