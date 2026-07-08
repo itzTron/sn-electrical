@@ -141,20 +141,6 @@ export function HeroSection({ locale }: { locale: Locale }) {
                 </div>
               </div>
             </div>
-            <motion.div
-              animate={{ y: [0, 14, 0] }}
-              transition={{ duration: 3.8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-              className="absolute -bottom-6 -left-4 hidden max-w-xs rounded-[26px] border border-white/20 bg-white/85 p-5 shadow-[0_24px_50px_rgba(8,15,33,0.12)] backdrop-blur-xl md:block dark:bg-[rgba(13,17,23,0.72)]"
-            >
-              <div className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-primary)]">
-                {locale === "en" ? "Trust Indicators" : "ট্রাস্ট ইন্ডিকেটর"}
-              </div>
-              <div className="mt-3 text-sm leading-7 text-[var(--foreground)]/72 dark:text-[var(--muted-foreground)]">
-                {locale === "en"
-                  ? "Licensed electricians, fast response, safety-led execution, and premium project documentation."
-                  : "লাইসেন্সপ্রাপ্ত ইলেকট্রিশিয়ান, দ্রুত রেসপন্স, সেফটি-নির্ভর এক্সিকিউশন এবং প্রিমিয়াম প্রজেক্ট ডকুমেন্টেশন।"}
-              </div>
-            </motion.div>
           </Reveal>
         </div>
       </div>
