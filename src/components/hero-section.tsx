@@ -28,7 +28,7 @@ export function HeroSection({ locale }: { locale: Locale }) {
 
   return (
     <section
-      className="relative overflow-hidden pt-32 sm:pt-36"
+      className="relative overflow-hidden pt-32 pb-16 sm:pt-36 sm:pb-20 lg:pb-24"
       onMouseMove={(event) => {
         const x = (event.clientX / window.innerWidth - 0.5) * 20;
         const y = (event.clientY / window.innerHeight - 0.5) * 20;

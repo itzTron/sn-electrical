@@ -1,6 +1,7 @@
 "use client";
 
 import { Menu, PhoneCall, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -27,22 +28,22 @@ export function SiteHeader({ locale }: { locale: Locale }) {
       <div className="container pt-5">
         <div
           className={cn(
-            "rounded-[28px] border border-white/20 px-5 py-4 transition duration-300",
+            "rounded-[28px] border px-5 py-4 transition duration-300",
             scrolled
-              ? "bg-white/78 shadow-[0_20px_60px_rgba(8,15,33,0.12)] backdrop-blur-2xl dark:bg-[rgba(13,17,23,0.78)]"
-              : "bg-white/56 shadow-[0_18px_50px_rgba(8,15,33,0.08)] backdrop-blur-xl dark:bg-[rgba(13,17,23,0.56)]",
+              ? "border-black/10 bg-white/90 shadow-[0_20px_60px_rgba(8,15,33,0.12)] backdrop-blur-2xl dark:border-white/10 dark:bg-zinc-950/90"
+              : "border-black/5 bg-white/70 shadow-[0_18px_50px_rgba(8,15,33,0.08)] backdrop-blur-xl dark:border-white/5 dark:bg-zinc-950/70",
           )}
         >
           <div className="flex items-center justify-between gap-4">
             <Link href={localizePath(locale)} className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,var(--color-primary),#5ea0ff)] text-sm font-bold text-white shadow-[0_16px_32px_rgba(0,102,255,0.28)]">
-                SN
+              <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl shadow-sm border border-black/5 dark:border-white/10 dark:bg-white/5">
+                <Image src="/bg-remove_logo.png" alt="SN Electrical Logo" fill sizes="44px" className="object-cover" />
               </div>
               <div>
-                <div className="font-display text-sm font-semibold tracking-[0.18em] text-[var(--foreground)]">
+                <div className="font-display text-sm font-semibold tracking-[0.18em] text-black dark:text-white">
                   SN ELECTRICAL
                 </div>
-                <div className="text-xs text-[var(--muted-foreground)]">
+                <div className="text-xs text-black dark:text-white">
                   {t(locale, business.tagline)}
                 </div>
               </div>
