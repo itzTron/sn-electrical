@@ -30,8 +30,8 @@ export function SiteHeader({ locale }: { locale: Locale }) {
           className={cn(
             "rounded-[28px] border px-5 py-4 transition duration-300",
             scrolled
-              ? "border-black/10 bg-white/70 shadow-[0_20px_60px_rgba(8,15,33,0.12)] backdrop-blur-2xl dark:border-white/10 dark:bg-zinc-950/90"
-              : "border-black/5 bg-white/40 shadow-[0_18px_50px_rgba(8,15,33,0.08)] backdrop-blur-xl dark:border-white/5 dark:bg-zinc-950/70",
+              ? "border-black/10 bg-white/95 shadow-[0_20px_60px_rgba(8,15,33,0.12)] backdrop-blur-2xl dark:border-white/10 dark:bg-zinc-950/90"
+              : "border-black/5 bg-white/75 shadow-[0_18px_50px_rgba(8,15,33,0.08)] backdrop-blur-xl dark:border-white/5 dark:bg-zinc-950/70",
           )}
         >
           <div className="flex items-center justify-between gap-4">
